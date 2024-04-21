@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* navbar */
+#navbar {
+    background-color: #2c3e50;
+    padding: 16px;
+    cursor: pointer;
+    
+}
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#navbar a {
+    color: white;
+    
+}
+
+.navbar-nav a {
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+a.nav-link:hover {
+    color: #1abc9c !important;
+}
+
+/* end navbar */
+
+/* masthead */
+
+.masthead {
+    background-color: #1abc9c;
+}
+
+.masthead img {
+    width: 240px;
+}
+
+.star::before,
+.star::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.star i {
+    font-size: 30px;
+    vertical-align: middle;
+    
+}
+
+/* end masterhead */
+
+/* main */
+
+/* mio portfolio */
+
+.middle-h{
+    color: #2c3e50;
+    font-size: 50px;
+    font-weight: 600;
+}
+.star middle-star i {
+    color: #2c3e50;
+}
+
+.middle-star::before,
+.middle-star::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #2c3e50;
+}
+
+
+/* portfolio items*/
+
+/* portfolio item 1 mio 
+
+.img-fluid {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img-fluid {
+    width: 100%;
+    
+}
+
+.layover {
+    position: absolute;
+    background-color: #1abc9c87;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: white;
+    font-size: 80px;
+    opacity: 0;
+    background-color: #1abc9c;
+    
+}
+.portfolio-item:hover .layover,
+.portfolio-item span {
+    opacity: 1;
+    transition: 3ms;
+}
+*/
+
+/* portfolio */
+
+/* portfolio items*/
+
+.portfolio-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.layover {
+    position: absolute;
+    background-color: #f8b702c3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .layover,
+.portfolio-item:hover  span {
+    opacity: 1;
+}
+
+/* end portfolio items*/
+
+/* section about */
+
+#about {
+    background-color: #1abc9c;
+}
+
+#about .testo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* end section about */
+
+/* section contact  */
+
+
+/* form button */
+
+.submitbutton {
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* end form button  */
+
+/* end section contact */
+
+/* footer */
+
+/* footer main */
+
+.footer-main {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+ 
+}
+.footer {
+    position: absolute;
+}
+
+/* footer social  */
+
+.icon i {
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+.icon {
+    
+}
+/* end footer social  */
+/* end footer main */
+
+/*  footer bottom */
+
+.footer-bottom {
+    background-color: #1a252f;
+    padding: 10px;
+     
+}
+/*  end footer bottom */
+
+/* modal 2 */
+
+
+.modal-img {
+    width: 400px;
+    flex-direction: column;
+    
+}
+
+/* modal 2 */
