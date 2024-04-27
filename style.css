@@ -150,7 +150,7 @@ a.nav-link:hover {
 
 .layover {
     position: absolute;
-    background-color: #f8b702c3;
+    background-color: #1abc9c96;
     width: 100%;
     height: 100%;
     top: 0;
@@ -193,8 +193,37 @@ a.nav-link:hover {
 
 /* section contact  */
 
+.form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
 
-/* form button */
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid red;
+}
+
+#contact label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    
+}
+
+/* .form-control:focus + label {..} 
+si usa " +"  "label" quando mi riferisco ad un elemento "label" che segue immediatamente un elemento "input" con la classe "form-control" quando quest'ultimo ha il "focus" */
+
+.form-control:focus + label {
+    
+    color: rgb(206, 206, 206);
+    transform: scale(0.65) translate(-40%, -40%);
+   
+}
+/* form contact "button send" */
 
 .submitbutton {
     background-color: #1abc9c;
@@ -207,6 +236,7 @@ a.nav-link:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+   
 }
 /* end form button  */
 
@@ -239,10 +269,8 @@ a.nav-link:hover {
     
 }
 
-.icon {
-    
-}
 /* end footer social  */
+
 /* end footer main */
 
 /*  footer bottom */
@@ -254,13 +282,25 @@ a.nav-link:hover {
 }
 /*  end footer bottom */
 
-/* modal 2 */
+/* modali  */
 
-
-.modal-img {
-    width: 400px;
-    flex-direction: column;
+.modal {
+    background-color: white;
     
 }
 
-/* modal 2 */
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+    margin: 25px;
+   
+   }
+
+.modal-h {
+        color: #2c3e50;
+        font-size: 40px;
+        font-weight: 100;
+        font
+}
+
+/* end modali  */
